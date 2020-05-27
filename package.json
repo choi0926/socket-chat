@@ -1,0 +1,30 @@
+{
+  "name": "socket-chat",
+  "version": "1.0.0",
+  "description": "node.js and socket.io chat ",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon --exec babel-node ./index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/choi0926/socket-chat.git"
+  },
+  "author": "choi0926",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/choi0926/socket-chat/issues"
+  },
+  "homepage": "https://github.com/choi0926/socket-chat#readme",
+  "dependencies": {
+    "@babel/cli": "^7.10.0",
+    "@babel/core": "^7.10.0",
+    "@babel/node": "^7.8.7",
+    "@babel/polyfill": "^7.8.7",
+    "@babel/preset-env": "^7.10.0",
+    "express": "^4.17.1",
+    "http": "0.0.1-security",
+    "nodemon": "^2.0.4",
+    "socket.io": "^2.3.0"
+  }
+}
